@@ -52,7 +52,7 @@ enum Textures
 void init(void);
 void gameInit(void);
 void gameClose(void);
-void close(void);
+void squit(void);
 void handleEvent(SDL_Event e);
 void spawnFood(void);
 void moveSnake(void);

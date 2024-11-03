@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
     }
 
     gameClose();
-    close();
+    squit();
 
     return 0;
 }
@@ -130,7 +130,7 @@ void gameClose()
     tail = NULL;
 }
 
-void close()
+void squit()
 {
     SDL_DestroyWindow(window);
     window = NULL;
